@@ -1,0 +1,120 @@
+.Foto {
+    width: 330px ;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 50%; 
+    border: solid;
+
+}
+.titulo {
+    position: relative; 
+    text-align: center;
+    align-content: center;
+}
+
+
+#encabezado {
+    position: relative;
+    display: inline-flex; 
+    image-resolution: 780px 1260px;
+    
+
+    
+}
+#imagenposicion {
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 10px 10px 25px 0px rgba(160, 121, 121, 0.75); 
+    display: flex;
+    top: 0px;
+    left: 180%;
+    justify-content: flex-end;
+    
+}
+#datospersonales {
+    position: relative;
+    border-radius: 2% 20% 20% 2%;
+    background-color: rgb(231, 230, 252);
+    border: solid;
+    box-shadow: 5px 5px 5px 0px rgba(110, 76, 76, 0.75); 
+    width: 500px;
+    
+    }
+.datospersonalesletras {
+        margin-left: 23px;
+        align-content: center;
+    }
+a:hover{
+    animation: alternate; 
+    font-weight: bold;
+    font-size: 21px;
+}
+
+body {
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 11px 10px 21px rgba(107, 2, 2, 0.6);
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+span {
+    text-decoration: underline;
+    color: rgb(5, 8, 1);
+    font-size: 23px;
+
+
+}
+
+h3{
+    margin: 30px 0px 0px 0px;
+}
+p{ 
+    font-size: 20px;
+}
+
+ol{
+    margin: 18px 0px 10px 60px;
+    font-weight: bold;
+}
+.pelidentro {
+    margin: 0px;
+    align-content: center
+    ;
+}
+li{
+    margin: 10px 0px 15px 0px;
+    font-size: 18px;
+}
+
+.Perfil {
+    font-size: 19px;
+    margin: 0px 8px;
+    padding: 0px 5px;
+}
+
+.Perfil1 {
+    font-size: 25px;
+    margin: 8px 0px;
+    padding: 8px 0px;
+    text-decoration: underline;
+    color: rgb(86, 175, 3);
+}
+footer {
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 20px 0px;
+}
+#peliculas {
+    background-color: rgb(231, 230, 252);
+    width: 425px;
+    height: 400px;
+    margin: 30px 0px 10px 0px;
+    padding: 0px 0px 0px 40px;
+    border: double;
+    align-content: center;
+}

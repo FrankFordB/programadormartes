@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="IconoF.jpg">
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <h1> GRACIAS POR CONTACTARTE </h1>
+    <span> Para una mejor atencion por favor llene el siguiente pormulario.</span>
+    <div>
+    <h2>Datos de Contacto</h2>
+    <form action="" ; method="">
+        <p>
+            <label for="Nombre y Apellido">Nombre y Apellido</label>
+            <input type="text" name="Nombre Apellido" ; placeholder="Pepito Honguito"; minlength="6"; required/>
+        </p> 
+        <p>
+            <label for="numero de telefono">Numero de Tel.</label>
+            <select name="numero de telefono">
+                <option value="primero">+54 9</option>
+                <option value="segundo">+295 </option>
+                <option value="tercero">+52 </option>
+                <option value="Cuarto">+508 </option>
+                <input type="text" ; name="Telefono"; placeholder="011 346789"; minlength="6"; required; />
+            </select>
+        </p>
+        <p>
+            <label for="Ciudad">Localidad
+                <select name="Localidad"; required>
+                    <option value="none">Seleccione</option>
+                    <option value="San Rafael"> San Rafael</option>
+                    <option value="Alvear">Alvear</option>
+                    <option value="San Carlos">San Carlos</option>
+                    <option value="Tunuyan"> Tunuyan</option>
+                
+                </select>
+            </label>
+        </p>
+        
+        <p>
+            <label for="sexo"> Sexo</label>
+                <ul>
+                    <li>
+                        <input type="radio"; name="sexo"; value="hombre">
+                        <label>Hombre</label>
+                    </li>
+                    <li>
+                        <input type="radio"; name="sexo"; value="mujer">
+                        <label>Mujer</label>
+                    </li>
+                </ul>
+        </p>
+        <p>
+            <label> Hobbies </label>
+            <ul>
+                <li>
+                    <input type="checkbox"; name="Hobbies[]" value="bailar" id="bailar">
+                    <label for="bailar">Bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox"; name="Hobbies[]" value="Cantar" id="Cantar">
+                    <label for="Cantar"> Cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox"; name="Hobbies[]" value="nadar" id="nadar">
+                    <label for="nadar">Nadar</label>
+                </li>
+                <li>
+                    <input type="checkbox"; name="Hobbies[]" value="Correr" id="Correr">
+                    <label for="Correr"> Correr</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit"; value="Enviar"/>
+            <input type="reset"; value="Borrar"/>
+            <a href="Index.html"> Volver al CV</a>
+        </p>
+        
+    </form>
+</div>
+</body>
+</html>
